@@ -1,0 +1,100 @@
+a {
+	color: #367EA6;
+}
+a:hover {
+	color: #444;
+}
+img {
+	border: 0px;
+}
+body {
+	color: #444;
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 12px;
+	margin: 0;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+ul {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+h1 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #367EA6;
+	padding-top: 6px;
+}
+
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.containerTable {
+	width: 1236px;
+	margin: auto;
+	height: 100% !important;
+	background: url(images/bgcontainer.gif) repeat-y;
+}
+.header {
+	margin: 8px 16px;
+	width: 1200px;
+	height: 155px;
+	background: url(images/top.gif) no-repeat;
+}
+
+/* title */
+.title h1 {
+	color: #FFF;
+	font: normal 3em Verdana,sans-serif;
+	height: 150px;
+	line-height: 150px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.sidenav h1, .sidenav ul {
+	padding-left: 12px;
+}
+.sidenavCell {
+	vertical-align: top;
+	height: 100% !important;
+	width: 268px;
+}
+.sidenav {
+	margin-left: 18px;
+	width: 250px;
+	background: #EEE;
+	border-right: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	margin-bottom: 15px;
+}
+.sidenav ul {
+	background: url(images/bgul.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+}
+.sidenav li {
+	border: 1px solid #FAFAFA;
+	border-top: none;
+	list-style: none;
+	margin: 0;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 12px;
+	padding: 3px 6px 3px 14px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+}
+.sidenavActive {
+	display: inline;
+	font-size: 12px;
+	padding: 3px 6px 3px 14px;
+	font-weight: bold;
+}
